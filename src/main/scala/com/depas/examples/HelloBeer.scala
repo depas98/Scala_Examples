@@ -1,6 +1,6 @@
 package com.depas.examples
 
-object Hello_World {
+object HelloBeer {
 
   def main (args: Array[String] ): Unit = {
 //    var n: Int = 2
@@ -10,6 +10,9 @@ object Hello_World {
 //    }
 
     2 to 6 foreach { n => println(s"Hello ${n} bottles of beer")}
+
+    println("############ Range using Int.to  ##################")
+    2.to(6) foreach { n => println(s"Hello ${n} bottles of beer")}
   }
 }
 
